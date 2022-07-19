@@ -1,3 +1,7 @@
+## run 
+  iex -S mix phx.server
+
+
 ## cài đặt
   # add deps in mix.exs
   # add finch in application.ex (xem thêm trong file)
@@ -18,7 +22,7 @@
   params = %{a: 1, b: 2}
   query = URI.encode_query(params)
   # bước 2 gọi finch
-  
+
   Finch.build(:get, "http://localhost:4000/get?{query}", header) |> Finch.request(MyFinch)
 
 
