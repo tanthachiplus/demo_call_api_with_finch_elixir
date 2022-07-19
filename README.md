@@ -1,3 +1,7 @@
+
+## khởi tạo 
+   mix phx.new demo_call_api_with_finch_elixir --no-ecto --no-dashboard --no-html --no-live
+
 ## run 
   iex -S mix phx.server
 
